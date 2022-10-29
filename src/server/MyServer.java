@@ -9,7 +9,7 @@ public class MyServer {
         try {
 
             Server server = new Server(9999);
-
+            System.out.println("sxva raghac");
         } catch (IOException e) {
             e.printStackTrace();
         }
