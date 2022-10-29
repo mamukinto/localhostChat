@@ -28,6 +28,7 @@ public class Client {
 
         new Thread(() -> {
             String message;
+            System.out.println("zxc");
             while (true) {
                 Scanner scanner = new Scanner(System.in);
                 message = scanner.nextLine();
